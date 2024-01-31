@@ -1,0 +1,25 @@
+extends layout
+
+block content
+
+  h1 Step 1: Time Selection
+
+  form(action="/" method="POST")
+    input(type="hidden", name="date", value=date)
+
+    p
+      | Select beginning time for Date:
+      = date
+
+
+    time-selects
+      input(type="time", name="begin")
+      time-select(time="09:15" available="true") X
+      time-select(time="09:30") X
+
+    time-selects
+      input(type="time", name="end")
+      time-select(time="09:15") X
+      time-select(time="09:30") X
+
+    input(type="submit")

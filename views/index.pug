@@ -1,0 +1,9 @@
+extends layout
+
+block content
+
+  h1 Start: Date Select
+
+  form(action="/step1" method="POST")
+    input(type="date", name="date")
+    input(type="submit")

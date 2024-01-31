@@ -1,0 +1,8 @@
+time-select {
+  display: inline-block;
+  padding: 0.5rem;
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: .5em;
+  cursor: pointer;
+}

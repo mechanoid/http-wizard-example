@@ -1,0 +1,14 @@
+{
+  "name": "workflow-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Falk Hoppe <falk@hey.com>",
+  "license": "MIT",
+  "bin": {
+    "workflow-example": "bin/workflow-example.js"
+  }
+}
